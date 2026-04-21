@@ -82,6 +82,26 @@
             background: white;
             margin-top: 40px;
         }
+
+        /* Photo section styles */
+        .photo-section {
+            text-align: center;
+        }
+        
+        .profile-photo {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #667eea;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+        
+        .photo-section p {
+            margin-top: 15px;
+            font-size: 1.1em;
+        }
     </style>
 </head>
 <body>
@@ -91,6 +111,10 @@
     </header>
     
     <container>
+        <section class="photo-section">
+            <img src="profile-photo.jpg" alt="Profile photo of Michael Jones" class="profile-photo">
+        </section>
+        
         <section>
             <h2>About Me</h2>
             <p>I am a student at Del Mar College with a strong passion for data science and analysis. I am experienced in Python, Java, JavaScript, HTML, and SQL. I am also knowledgeable in industrial automation programming, specifically CodeSys Structured Text.</p>
